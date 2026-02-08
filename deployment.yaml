@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: demo-backend
-          image: yooncount/demo-backend:1.0
+          image: yooncount/demo-backend:5
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
